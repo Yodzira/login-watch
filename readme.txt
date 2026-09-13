@@ -4,7 +4,7 @@ Tags: login, security, alerts, telegram, admin
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ No — it complements it. Login Watch only notifies; it never blocks, never slow
 No. Nothing is blocked, ever.
 
 == Changelog ==
+
+= 0.1.1 =
+* Added: extension filters for the Pro companion (routing and custom checks). Nothing changes for existing setups.
 
 = 0.1.0 =
 * First release: admin login alerts, failed-burst detection, new-admin/role-change alerts, journal, clean uninstall.

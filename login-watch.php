@@ -3,7 +3,7 @@
  * Plugin Name:       Login Watch
  * Plugin URI:        https://github.com/Yodzira/login-watch
  * Description:      Know who enters your admin the second they do: admin login alerts, failed-attempt bursts, new-admin creation — Telegram and email. No firewall, no lockouts, compatible with Wordfence.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Yodzira
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'LGW_VERSION', '0.1.0' );
+define( 'LGW_VERSION', '0.1.1' );
 define( 'LGW_FILE', __FILE__ );
 define( 'LGW_DIR', __DIR__ );
 

@@ -55,8 +55,9 @@ class LGW_Watcher {
 		}
 
 		$text = LGW_Messages::build( $kind, array_merge( $data, array( 'ip' => LGW_Ip::mask( $ip ) ) ) );
-		if ( '' !== $settings['token'] && '' !== $settings['chat'] ) {
-			( new LGW_Telegram() )->send( $settings['token'], $settings['chat'], $text );
+		$chat = apply_filters( 'lgw_alert_chat', $settings['chat'], $kind, $data );
+		if ( '' !== $settings['token'] && '' !== $chat ) {
+			( new LGW_Telegram() )->send( $settings['token'], $chat, $text );
 		}
 		wp_mail( get_option( 'admin_email' ), 'Login Watch: ' . $kind, $text );
 	}
