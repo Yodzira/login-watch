@@ -23,6 +23,13 @@ Login Watch does one thing: it tells you what happens at your login screen — i
 
 Login Watch never blocks anyone. It is lightweight on purpose and fully compatible with Wordfence, Solid Security and firewalls.
 
+== Pro Version ==
+
+Pro adds automation, reports and integrations on top of the free version
+(one license = one site, 12 months of updates):
+
+https://yodsira.duckdns.org/buy/login-watch
+
 == Installation ==
 
 1. Install and activate.
