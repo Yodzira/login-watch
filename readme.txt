@@ -28,7 +28,7 @@ Login Watch never blocks anyone. It is lightweight on purpose and fully compatib
 Pro adds automation, reports and integrations on top of the free version
 (one license = one site, 12 months of updates):
 
-https://yodsira.duckdns.org/buy/login-watch
+https://yodsira.com/buy/login-watch
 
 == Installation ==
 
